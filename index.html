@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>The Lardy Lockwoods</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/bootstrap.css">
+
+<link href="css/demo.css" rel="stylesheet" type="text/css">
+<script src="vendor/Chart.js"></script>
+<script src="src/legend.js"></script>
+<script src="src/demo.js"></script>
+
+        <style>
+            body {
+                padding-top: 50px;
+                padding-bottom: 20px;
+            }
+        </style>
+        <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="css/main.css">
+
+        <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <script>
+  !function(g,s,q,r,d){r=g[r]=g[r]||function(){(r.q=r.q||[]).push(
+  arguments)};d=s.createElement(q);q=s.getElementsByTagName(q)[0];
+  d.src='//d1l6p2sc9645hc.cloudfront.net/tracker.js';q.parentNode.
+  insertBefore(d,q)}(window,document,'script','_gs');
+
+  _gs('GSN-075034-E');
+</script>
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Lardy Lockwoods</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          <ul class="nav navbar-nav">
+            <li ><a href="#">Overall team loss</a></li>
+              <li ><a href="#startleague">League table</a></li>
+             
+           
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">The contenders <span class="caret"></span></a>
+              <ul class="dropdown-menu" role="menu">
+                <li><a href="#lineLegendAmie">Amie</a></li>
+                <li><a href="#lineLegendCraig">Craig</a></li>
+                <li><a href="#lineLegendGary">Gary</a></li>
+                <li><a href="#lineLegendJason">Jason</a></li>
+                <li><a href="#lineLegendJulie">Julie</a></li>
+                <li><a href="#lineLegendSharon">Sharon</a></li>
+               
+                <li class="divider"></li>
+                <li class="dropdown-header">Eat healthy!</li>
+               
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </nav>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1>Hello, fatty!</h1>
+        <p>Here are the all important stats, weights, goals &amp; league tables. Put down those Xmas sweets and get exercising!</p>
+        <p><a class="btn btn-primary btn-lg" href="mailto:craiglockwood@me.com?Subject=I%20have%20a%20new%20weight%20to%20report" role="button">Send new weight</a></p>
+      </div>
+    </div>
+
+
+
+
+  
+  <div class="lowercontainer">
+
+
+<div class="weightbox">
+
+   <h1>Overall team loss</h1>
+    <canvas id="barChartLoss" width="300"  ></canvas>
+    <hr>
+</div>
+
+
+<div class="weightbox">
+ <div id="lineLegendAmie"></div>
+   <h1>Amie</h1>
+    <canvas id="lineChartAmie" width="300"  ></canvas>
+    
+</div>
+
+
+
+<div class="weightbox">
+ 
+  <div id="lineLegendCraig"></div>
+  <hr>
+   <h1>Craig</h1>
+    <canvas id="lineChartCraig" width="300" ></canvas>
+    
+</div>
+
+
+
+<div class="weightbox">
+ 
+  <div id="lineLegendGary"></div>
+  <hr>
+   <h1>Gary</h1>
+    <canvas id="lineChartGary" width="300" height"300" ></canvas>
+    
+</div>
+
+<div class="weightbox">
+
+  <div id="lineLegendJason"></div>
+  <hr>
+    <h1>Jason</h1>
+    <canvas id="lineChartJason" width="300" ></canvas>
+    
+</div>
+
+
+<div class="weightbox julie">
+ 
+  <div id="lineLegendJulie"></div>
+  <hr>
+   <h1>Julie</h1>
+    <canvas id="lineChartJulie" width="300" ></canvas>
+    
+</div>
+
+
+<div class="weightbox">
+ 
+  <div id="lineLegendSharon"></div>
+  <hr>
+   <h1>Sharon</h1>
+    <canvas id="lineChartSharon" width="300" ></canvas>
+    
+</div>
+
+
+
+
+<div class="leaguetable">
+   <div id="startleague"></div>
+
+  <hr>
+
+  <h1>League table</h1>
+ 
+        
+      <table class="table">
+
+        <thead>
+          <tr>
+            <th>Ranking</th>
+            <th>Firstname</th>
+            <th>Weight lost</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Amie</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Craig</td>
+            <td>0</td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Gary</td>
+            <td>0</td>
+          </tr>
+            <tr>
+            <td>4</td>
+            <td>Jason</td>
+            <td>0</td>
+          </tr>
+            <tr>
+            <td>5</td>
+            <td>Julie</td>
+            <td>0</td>
+          </tr>
+            <tr>
+            <td>6</td>
+            <td>Sharon</td>
+            <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+   
+
+</div> <!-- /leaguetable -->
+
+
+
+</div> <!-- /container --> 
+
+
+
+
+
+
+
+
+
+
+
+     
+         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.1.min.js"><\/script>')</script>
+
+        <script src="js/vendor/bootstrap.min.js"></script>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

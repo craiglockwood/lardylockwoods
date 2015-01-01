@@ -1,0 +1,50 @@
+h1 {
+    font-family: 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+.legend {
+    width: 10em;
+    border: 0px solid black;
+}
+
+.legend .title {
+    display: block;
+    margin-bottom: 0.5em;
+    line-height: 1.2em;
+    padding: 0 0.3em;
+}
+
+.legend .color-sample {
+    display: block;
+    float: left;
+    width: 1em;
+    height: 1em;
+    border: 2px solid; /* Comment out if you don't want to show the fillColor */
+    border-radius: 0.5em; /* Comment out if you prefer squarish samples */
+    margin-right: 0.5em;
+}
+
+
+
+.lowercontainer {
+    width:90%;
+    padding: 20px;
+}
+
+.weightbox {
+    padding: 10px;
+
+    width:90%;
+    float:left;
+}
+
+
+
+
+.leaguetable {
+    padding: 10px;
+
+    width:100%;
+    float:left;
+}
+
