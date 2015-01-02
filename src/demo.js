@@ -282,10 +282,10 @@ function lineChartLouise() {
 
 
 
-    var ctx = document.getElementById("lineChartAmie").getContext("2d");
+    var ctx = document.getElementById("lineChartLouise").getContext("2d");
     new Chart(ctx).Line(data);
 
-    legend(document.getElementById("lineLegendAmie"), data);
+    legend(document.getElementById("lineLegendLouise"), data);
 
 {responsive: true}
 
