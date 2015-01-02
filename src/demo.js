@@ -7,6 +7,7 @@ function main() {
      lineChartGary();
      lineChartJason();
      lineChartJulie();
+     lineChartLouise();
      lineChartSharon();
      barChartLoss();
     
@@ -251,7 +252,44 @@ function lineChartJulie() {
 }
 
 
+function lineChartLouise() {
+    var data = {
+        labels : ["Jan 4","Jan 11","Jan 18","Jan 25","Feb 1","Feb 8", "Feb 15","Feb 22", "Mar 1"],
+        datasets : [
+            {
+            fillColor : "rgba(220,220,220,0.5)",
+            strokeColor : "rgba(220,220,220,1)",
+            pointColor : "rgba(220,220,220,1)",
+            pointStrokeColor : "#fff",
+            data : [94.8, 94.8, 94.8, 94.8, 94.8, 94.8, 94.8, 94.8, 94.8],
+            label : 'Actual Weight'
+        },
+        {
+            fillColor : "rgba(151,187,205,0.5)",
+            strokeColor : "rgba(151,187,205,1)",
+            pointColor : "rgba(151,187,205,1)",
+            pointStrokeColor : "#fff",
+            data : [94.8, 93.3, 92, 90.5, 89, 87.5, 85, 83, 82.1,],
+            label : 'Goal Weight'
+        }
+        ]
+    };
 
+
+
+
+
+
+
+
+    var ctx = document.getElementById("lineChartAmie").getContext("2d");
+    new Chart(ctx).Line(data);
+
+    legend(document.getElementById("lineLegendAmie"), data);
+
+{responsive: true}
+
+}
 
 
 
