@@ -18,7 +18,7 @@ function main() {
 function barChartLoss() {
 
     var data = {
-     labels : ["Jan 4","Jan 11","Jan 18","Jan 25","Feb 1","Feb 8", "Feb 15","Feb 22", "Mar 1"],
+     labels : ["Jan 11","Jan 18","Jan 25","Feb 1","Feb 8", "Feb 15","Feb 22", "Mar 1"],
     datasets: [
         {
             label: "Actual team loss",
@@ -26,7 +26,7 @@ function barChartLoss() {
             strokeColor: "rgba(220,220,220,0.8)",
             highlightFill: "rgba(220,220,220,0.75)",
             highlightStroke: "rgba(220,220,220,1)",
-            data: [0, 16, 0, 0, 0, 0, 0, 0, 0]
+            data: [ 16, 0, 0, 0, 0, 0, 0, 0]
         },
        
        
