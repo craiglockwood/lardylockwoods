@@ -178,7 +178,7 @@ function lineChartJason() {
             strokeColor : "rgba(220,220,220,1)",
             pointColor : "rgba(220,220,220,1)",
             pointStrokeColor : "#fff",
-            data : [104.7, 101.2, 104.7, 104.7, 104.7, 104.7, 104.7, 104.7, 104.7,],
+            data : [104.8, 101.1, 104.7, 104.7, 104.7, 104.7, 104.7, 104.7, 104.7,],
             label : 'Actual Weight'
         },
         {
@@ -186,7 +186,7 @@ function lineChartJason() {
             strokeColor : "rgba(151,187,205,1)",
             pointColor : "rgba(151,187,205,1)",
             pointStrokeColor : "#fff",
-            data : [104.7, 102.0, 100.5, 98, 98, 96, 94, 93, 92.0],
+            data : [104.8, 102.0, 100.5, 98, 98, 96, 94, 93, 92.0],
             label : 'Goal Weight'
         }
         ]
