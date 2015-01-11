@@ -26,7 +26,7 @@ function barChartLoss() {
             strokeColor: "rgba(220,220,220,0.8)",
             highlightFill: "rgba(220,220,220,0.75)",
             highlightStroke: "rgba(220,220,220,1)",
-            data: [0, 15.1, 0, 0, 0, 0, 0, 0, 0]
+            data: [0, 16, 0, 0, 0, 0, 0, 0, 0]
         },
        
        
