@@ -62,7 +62,7 @@ function lineChartAmie() {
             strokeColor : "rgba(151,187,205,1)",
             pointColor : "rgba(151,187,205,1)",
             pointStrokeColor : "#fff",
-            data : [73, 71, 69, 67, 65, 64, 62.5, 61.0, 60,],
+            data : [73, 72, 71.5, 71, 70, 69, 68.5, 67.0, 66.7,],
             label : 'Goal Weight'
         }
         ]
