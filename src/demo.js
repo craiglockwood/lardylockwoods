@@ -54,7 +54,7 @@ function lineChartAmie() {
             strokeColor : "rgba(220,220,220,1)",
             pointColor : "rgba(220,220,220,1)",
             pointStrokeColor : "#fff",
-            data : [73, 73, 73, 73, 73, 73, 73, 73, 73],
+            data : [73, 72.1, 73, 73, 73, 73, 73, 73, 73],
             label : 'Actual Weight'
         },
         {
@@ -94,7 +94,7 @@ function lineChartCraig() {
             strokeColor : "rgba(220,220,220,1)",
             pointColor : "rgba(220,220,220,1)",
             pointStrokeColor : "#fff",
-            data : [85.7, 85.7, 85.7, 85.7, 85.7, 85.7, 85.7, 85.7, 85.7,],
+            data : [85.7, 83.4, 85.7, 85.7, 85.7, 85.7, 85.7, 85.7, 85.7,],
             label : 'Actual Weight'
         },
         {
@@ -135,7 +135,7 @@ function lineChartGary() {
             strokeColor : "rgba(220,220,220,1)",
             pointColor : "rgba(220,220,220,1)",
             pointStrokeColor : "#fff",
-            data : [95.7, 95.7, 95.7, 95.7, 95.7, 95.7, 95.7, 95.7,95.7],
+            data : [95.7, 93.4, 95.7, 95.7, 95.7, 95.7, 95.7, 95.7,95.7],
             label : 'Actual Weight'
         },
         {
@@ -178,7 +178,7 @@ function lineChartJason() {
             strokeColor : "rgba(220,220,220,1)",
             pointColor : "rgba(220,220,220,1)",
             pointStrokeColor : "#fff",
-            data : [104.7, 104.7, 104.7, 104.7, 104.7, 104.7, 104.7, 104.7, 104.7,],
+            data : [104.7, 101.2, 104.7, 104.7, 104.7, 104.7, 104.7, 104.7, 104.7,],
             label : 'Actual Weight'
         },
         {
@@ -221,7 +221,7 @@ function lineChartJulie() {
             strokeColor : "rgba(220,220,220,1)",
             pointColor : "rgba(220,220,220,1)",
             pointStrokeColor : "#fff",
-            data : [71.6, 71.6, 71.6, 71.6, 71.6, 71.6, 71.6, 71.6, 71.6,],
+            data : [71.6, 70.3, 71.6, 71.6, 71.6, 71.6, 71.6, 71.6, 71.6,],
             label : 'Actual Weight'
         },
         {
@@ -261,7 +261,7 @@ function lineChartLouise() {
             strokeColor : "rgba(220,220,220,1)",
             pointColor : "rgba(220,220,220,1)",
             pointStrokeColor : "#fff",
-            data : [94.8, 94.8, 94.8, 94.8, 94.8, 94.8, 94.8, 94.8, 94.8],
+            data : [94.8, 91.6, 94.8, 94.8, 94.8, 94.8, 94.8, 94.8, 94.8],
             label : 'Actual Weight'
         },
         {
@@ -302,7 +302,7 @@ function lineChartSharon() {
             strokeColor : "rgba(220,220,220,1)",
             pointColor : "rgba(220,220,220,1)",
             pointStrokeColor : "#fff",
-            data : [66.7, 66.7, 66.7, 66.7, 66.7, 66.7, 66.7, 66.7, 66.7,],
+            data : [66.7, 61.2, 66.7, 66.7, 66.7, 66.7, 66.7, 66.7, 66.7,],
             label : 'Actual Weight'
         },
         {
