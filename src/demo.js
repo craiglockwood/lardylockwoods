@@ -302,7 +302,7 @@ function lineChartSharon() {
             strokeColor : "rgba(220,220,220,1)",
             pointColor : "rgba(220,220,220,1)",
             pointStrokeColor : "#fff",
-            data : [66.7, 61.2, 66.7, 66.7, 66.7, 66.7, 66.7, 66.7, 66.7,],
+            data : [63.5, 61.2, 63.5, 63.5, 63.5, 63.5, 63.5, 63.5, 63.5,],
             label : 'Actual Weight'
         },
         {
@@ -310,7 +310,7 @@ function lineChartSharon() {
             strokeColor : "rgba(151,187,205,1)",
             pointColor : "rgba(151,187,205,1)",
             pointStrokeColor : "#fff",
-            data : [66.7, 65.7, 64.5, 64, 63, 60, 58, 57, 56.2,],
+            data : [63.5, 62, 61, 60, 59, 58, 57, 56, 56.2,],
             label : 'Goal Weight'
         }
         ]
